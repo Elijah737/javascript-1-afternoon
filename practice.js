@@ -1,21 +1,21 @@
 //////////////////PROBLEM 1////////////////////
 
 //Create a variable called myName that is a string data type
-let myName = "Elijah"
-//Code here
 
+//Code here
+let myName = "Elijah"
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
-let myAge = 37
-//Code here
 
+//Code here
+let myAge = 37
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
-let lovesCode = true
-//Code here
 
+//Code here
+let lovesCode = true
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
@@ -79,7 +79,15 @@ devMountainClassPet = dog['name']
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
-
+function nameCheck(name){
+  if(name === Steven){
+    return "What is up Steven?"
+  } else if(name === Bryan){
+    return "Hey Bryan"
+  } else {
+    return "cool name, " + name
+  }
+}
 //////////////////PROBLEM 11////////////////////
 
 // Create a function called add that takes in two parameters
